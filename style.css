@@ -326,7 +326,7 @@ a {
     font-size: 17px; }
 
   .title__text {
-    margin-right: 6%; } }
+    margin-right: 8%; } }
 @media screen and (min-width: 900px) and (orientation: landscape) {
   .header {
     background: url("./img/bigHeaderBG.jpg") 95% 5% no-repeat;
