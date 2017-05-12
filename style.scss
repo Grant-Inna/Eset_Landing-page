@@ -29,8 +29,7 @@
 }
 
 .logo {
-  flex: 30%;
-  width: 100%;
+  width: 30%;
   height: 42%;
 
   background: url("./img/logo.png") center no-repeat;
@@ -38,7 +37,7 @@
 }
 
 .title {
-  flex: 60%;
+  width: 60%;
   height: 80%;
   @include makeItCenter();
 }
