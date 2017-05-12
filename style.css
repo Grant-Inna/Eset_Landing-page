@@ -126,7 +126,7 @@ a {
 
 .advantages {
   width: 100%;
-  height: 20%;
+  height: 35%;
   min-height: 150px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -142,14 +142,25 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #ffffff url("./img/eset_sp_box.png") no-repeat center;
-  background-size: contain;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   color: #434d57;
+  background-color: #ffffff;
   display: none; }
 
 .advantages__title {
   font-size: 1.2rem;
   color: #434d57; }
+
+.advantages__img {
+  height: 50%;
+  width: 100%;
+  background: url("./img/eset_sp_box.png") no-repeat center;
+  background-size: contain; }
+
+.advantages__text {
+  margin-bottom: 2%; }
 
 .subscribe {
   width: 100%;
@@ -289,22 +300,29 @@ a {
     display: flex; }
 
   .mediaEmptySpaces {
-    display: none; } }
+    display: none; }
+
+  .advantages__img {
+    height: 53.5%; } }
 @media screen and (min-width: 660px) and (orientation: landscape) {
   .slogan__triangle {
     left: 47%; } }
 @media screen and (min-width: 700px) and (orientation: landscape) {
   .title__text {
-    font-size: 2.5rem; }
+    font-size: 2rem; }
 
   .slogan__title {
     font-size: 1.6rem; }
 
   .advantages {
-    height: 23%; }
+    height: 35%;
+    justify-content: center; }
 
   .advantages__title {
     font-size: 1.6rem; }
+
+  .advantages__img {
+    display: none; }
 
   .subscribe__title {
     font-size: 1.6rem; }
@@ -321,7 +339,10 @@ a {
     border-width: 20px 25px 0 25px; } }
 @media screen and (min-width: 760px) and (orientation: portrait) {
   html {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .advantages__img {
+    height: 60%; } }
 @media screen and (min-width: 1000px) and (orientation: portrait) {
   html {
     font-size: 17px; }
