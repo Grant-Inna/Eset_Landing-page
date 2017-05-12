@@ -15,7 +15,7 @@
   width: 100%;
   height: $containerHeight;
 
-  background: $lightBlue;
+  background: $mainContainerBackground;
 }
 
 .header {
@@ -29,7 +29,6 @@
 
 .logo {
   flex: 30%;
-  margin: 3%;
   width: 100%;
   height: 42%;
 
@@ -40,7 +39,6 @@
 .title {
   flex: 60%;
   height: 80%;
-  margin: 3%;
   @include makeItCenter();
 }
 .title__text {
@@ -76,8 +74,7 @@
 .mediaEmptySpaces {
   width: 100%;
   height: $advantagesHeight / $decreaseNum;
-  background: none;
-  display: none;
+  background: $mediaEmptySpacesMainColor;
 }
 
 .advantages {
@@ -90,6 +87,8 @@
 
   background-color: $advantagesMainColor;
   color: $sloganMainColor;
+
+  display: none;
 }
 .advantages__title {
   font-size: $h3FontSize;

@@ -1,15 +1,99 @@
 @import "variables";
 
-@media screen and (min-width: 500px) and (orientation: landscape) {
-  $sloganHeight: 6%;
+@media screen and (min-width: 400px) and (orientation: landscape) {
+  $sloganHeight: 3%;
+  .slogan {
+    height: $sloganHeight;
+  }
+  .subscribe__link {
+    height: 80%;
+  }
+  .slogan__triangle {
+    border-width: 18px 25px 0 25px;
+  }
+}
+
+
+@media all and (device-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  $h1FontSize: 2rem;
+  .title__text {
+    font-size: $h1FontSize;
+  }
+  .mainContainer {
+    height: 320px;
+  }
+  .header {
+    height: 48px;
+  }
+  .slogan {
+    height: 12px;
+  }
+  .subscribe__link {
+    height: 90%;
+  }
+  .slogan__triangle {
+    border-width: 18px 25px 0 25px;
+  }
   .advantages {
     display: none;
   }
   .mediaEmptySpaces {
-    display: block;
+    height: 22px;
   }
-  .slogan {
-    height: $sloganHeight;
+  .subscribe {
+    height: 26px;
+  }
+  .emptySpaces {
+    height: 212px;
+  }
+}
+
+@media screen and (min-width: 300px) and (orientation: portrait) {
+  .advantages {
+    display: flex;
+  }
+  .mediaEmptySpaces {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 660px) and (orientation: landscape) {
+  .slogan__triangle {
+    left: 47%;
+  }
+}
+@media screen and (min-width: 760px) and (orientation: landscape) {
+  $h1FontSize: 2.5rem;
+  $h2FontSize: 1.6rem;
+  $h3FontSize: 1.6rem;
+  .title__text {
+    font-size: $h1FontSize;
+  }
+  .slogan__title {
+    font-size: $h2FontSize;
+  }
+  .advantages__title {
+    font-size: $h3FontSize;
+  }
+  .subscribe__title {
+    font-size: $h3FontSize;
+  }
+  .slogan__triangle {
+    border-width: 20px 25px 0 25px;
+  }
+  .advantages {
+    display: flex;
+  }
+  .mediaEmptySpaces {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 760px) and (orientation: portrait) {
+  $mainFontSize: 14px;
+  html {
+    font-size: $mainFontSize;
   }
 }
 
