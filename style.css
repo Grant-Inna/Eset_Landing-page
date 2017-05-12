@@ -250,7 +250,8 @@ a {
 
   .header {
     height: 48px;
-    background: url("./img/smallHeaderBG.jpg") 70% no-repeat; }
+    background: url("./img/smallHeaderBG.jpg") center no-repeat;
+    background-size: cover; }
 
   .slogan {
     height: 10px; }
@@ -313,7 +314,8 @@ a {
     font-size: 2.3rem; } }
 @media screen and (min-width: 900px) and (orientation: landscape) {
   .header {
-    background: url("./img/bigHeaderBG.jpg") 70% no-repeat; }
+    background: url("./img/bigHeaderBG.jpg") center no-repeat;
+    background-size: cover; }
 
   .advantages {
     display: flex; }

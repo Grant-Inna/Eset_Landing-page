@@ -21,7 +21,8 @@
   $headerImg: "./img/smallHeaderBG.jpg";
   .header {
     height: 48px;
-    background: url($headerImg) 70% no-repeat;
+    background: url($headerImg) center no-repeat;
+    background-size: cover;
   }
   .slogan {
     height: 10px;
@@ -107,7 +108,8 @@
 @media screen and (min-width: 900px) and (orientation: landscape) {
   $headerImg: "./img/bigHeaderBG.jpg";
   .header {
-    background: url($headerImg) 70% no-repeat;
+    background: url($headerImg) center no-repeat;
+    background-size: cover;
   }
   .advantages {
     display: flex;
