@@ -161,7 +161,7 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff; }
+  background-color: #f0f5f7; }
 
 .subscribe__link {
   width: 70%;
@@ -245,6 +245,6 @@ a {
     display: block; }
 
   .slogan {
-    height: 4%; } }
+    height: 3%; } }
 
 /*# sourceMappingURL=style.css.map */
