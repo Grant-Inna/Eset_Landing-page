@@ -268,7 +268,7 @@ a {
 
   .emptySpaces {
     height: 212px; } }
-@media screen and (min-width: 400px) and (orientation: portrait) {
+@media screen and (min-width: 300px) and (orientation: portrait) {
   .advantages {
     display: flex; }
 
