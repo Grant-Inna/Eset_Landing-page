@@ -142,7 +142,8 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background: #ffffff url("./img/eset_sp_box.png") no-repeat center;
+  background-size: contain;
   color: #434d57;
   display: none; }
 
