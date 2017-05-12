@@ -88,7 +88,7 @@ a {
 
 .title__text {
   text-align: center;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 .slogan {
   width: 100%;
@@ -107,7 +107,7 @@ a {
   background-color: #434d57; }
 
 .slogan__title {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center; }
 
 .slogan__triangle {
@@ -140,7 +140,7 @@ a {
   color: #434d57; }
 
 .advantages__title {
-  font-size: 1.6rem; }
+  font-size: 1.2rem; }
 
 .subscribe {
   width: 100%;
@@ -188,8 +188,8 @@ a {
   box-shadow: inset 0 0 13px 6px rgba(47, 53, 47, 0.37); }
 
 .subscribe__title {
-  color: #eaeaea;
-  font-size: 1.6rem; }
+  color: #ffffff;
+  font-size: 1.2rem; }
 
 .emptySpaces {
   width: 100%;
@@ -231,20 +231,7 @@ a {
   color: inherit;
   text-decoration: none; }
 
-@media screen and (min-width: 320px) {
-  .title__text {
-    font-size: 1.5rem; }
-
-  .slogan__title {
-    font-size: 1.4rem; }
-
-  .advantages__title {
-    font-size: 1.2rem; }
-
-  .subscribe__title {
-    color: #ffffff;
-    font-size: 1.2rem; } }
-@media screen and (min-width: 320px) and (orientation: landscape) {
+@media screen and (min-width: 500px) and (orientation: landscape) {
   .advantages {
     display: none; } }
 
