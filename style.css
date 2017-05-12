@@ -240,8 +240,14 @@ a {
     height: 3%; }
 
   .subscribe__link {
-    height: 80%; } }
+    height: 80%; }
+
+  .slogan__triangle {
+    border-width: 18px 25px 0 25px; } }
 @media all and (device-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .title__text {
+    font-size: 2rem; }
+
   .mainContainer {
     height: 320px; }
 
@@ -274,5 +280,32 @@ a {
 
   .mediaEmptySpaces {
     display: none; } }
+@media screen and (min-width: 660px) and (orientation: landscape) {
+  .slogan__triangle {
+    left: 47%; } }
+@media screen and (min-width: 760px) and (orientation: landscape) {
+  .title__text {
+    font-size: 2.5rem; }
+
+  .slogan__title {
+    font-size: 1.6rem; }
+
+  .advantages__title {
+    font-size: 1.6rem; }
+
+  .subscribe__title {
+    font-size: 1.6rem; }
+
+  .slogan__triangle {
+    border-width: 20px 25px 0 25px; }
+
+  .advantages {
+    display: flex; }
+
+  .mediaEmptySpaces {
+    display: none; } }
+@media screen and (min-width: 760px) and (orientation: portrait) {
+  html {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */
