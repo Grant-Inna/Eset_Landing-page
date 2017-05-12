@@ -74,7 +74,6 @@ a {
 .title {
   flex: 60%;
   height: 80%;
-  margin: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -248,5 +247,26 @@ a {
 
   .subscribe__link {
     height: 80%; } }
+@media all and (device-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .mainContainer {
+    height: 320px; }
+
+  .header {
+    height: 48px; }
+
+  .slogan {
+    height: 32px; }
+
+  .advantages {
+    display: none; }
+
+  .mediaEmptySpaces {
+    height: 32px; }
+
+  .subscribe {
+    height: 26px; }
+
+  .emptySpaces {
+    height: 182px; } }
 
 /*# sourceMappingURL=style.css.map */
