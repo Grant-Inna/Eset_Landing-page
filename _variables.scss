@@ -2,7 +2,7 @@ $darkBlue: #004a4d;
 $lightBlue: #007e8a;
 $textColor_white: #eaeaea;
 
-$mainContainerBackground: #f0f5f7;
+$mainContainerBackground: $lightBlue;
 $headerImg: "./img/headerBG.jpg";
 $headerMainBack: url($headerImg) 70% no-repeat;
 $sloganMainColor: #434d57;
@@ -11,7 +11,7 @@ $subscribeMainColor: #ffffff;
 $mediaEmptySpacesMainColor: #ffffff;
 $emptySpacesMainColor: $lightBlue;
 
-$containerHeight: 98%;
+$containerHeight: 100%;
 $headerHeight: 15%;
 $sloganHeight: 10%;
 $advantagesHeight: 20%;
