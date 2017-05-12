@@ -18,11 +18,10 @@
   .mainContainer {
     height: 320px;
   }
-  $headerImg: "./img/smallHeaderBG";
-  $headerMainBack: url($headerImg) 70% no-repeat;
+  $headerImg: "./img/smallHeaderBG.jpg";
   .header {
     height: 48px;
-    background: $headerMainBack;
+    background: url($headerImg) 70% no-repeat;
   }
   .slogan {
     height: 10px;
@@ -106,10 +105,9 @@
   }
 }
 @media screen and (min-width: 900px) and (orientation: landscape) {
-  $headerImg: "./img/bigHeaderBG";
-  $headerMainBack: url($headerImg) 70% no-repeat;
+  $headerImg: "./img/bigHeaderBG.jpg";
   .header {
-    background: $headerMainBack;
+    background: url($headerImg) 70% no-repeat;
   }
 }
 
