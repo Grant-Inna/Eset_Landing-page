@@ -15,10 +15,6 @@
 
 
 @media all and (device-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  $h1FontSize: 2rem;
-  .title__text {
-    font-size: $h1FontSize;
-  }
   .mainContainer {
     height: 320px;
   }
@@ -26,7 +22,7 @@
     height: 48px;
   }
   .slogan {
-    height: 12px;
+    height: 10px;
   }
   .subscribe__link {
     height: 90%;
@@ -44,7 +40,7 @@
     height: 26px;
   }
   .emptySpaces {
-    height: 212px;
+    height: 214px;
   }
 }
 
@@ -62,7 +58,7 @@
     left: 47%;
   }
 }
-@media screen and (min-width: 760px) and (orientation: landscape) {
+@media screen and (min-width: 700px) and (orientation: landscape) {
   $h1FontSize: 2.5rem;
   $h2FontSize: 1.6rem;
   $h3FontSize: 1.6rem;
@@ -78,14 +74,14 @@
   .subscribe__title {
     font-size: $h3FontSize;
   }
-  .slogan__triangle {
-    border-width: 20px 25px 0 25px;
-  }
   .advantages {
     display: flex;
   }
   .mediaEmptySpaces {
     display: none;
+  }
+  .slogan__triangle {
+    border-width: 20px 25px 0 25px;
   }
 
 }
