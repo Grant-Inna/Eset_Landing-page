@@ -90,13 +90,13 @@
   }
 }
 @media screen and (min-width: 1000px) and (orientation: portrait) {
-  $mainFontSize: 20px;
+  $mainFontSize: 19px;
   html {
     font-size: $mainFontSize;
   }
   $h1FontSize: 2.3rem;
   .title__text {
-    font-size: $h1FontSize;
+    font-size: 2.3rem;
   }
 }
 @media screen and (min-width: 900px) and (orientation: landscape) {

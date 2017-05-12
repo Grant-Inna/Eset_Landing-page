@@ -25,6 +25,7 @@
   @include makeThemPretty();
 
   background: $headerMainBack;
+  background-size: cover;
 }
 
 .logo {
