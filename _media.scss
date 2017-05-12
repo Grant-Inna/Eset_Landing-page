@@ -109,5 +109,15 @@
   .header {
     background: url($headerImg) 70% no-repeat;
   }
+  .advantages {
+    display: flex;
+  }
+  .mediaEmptySpaces {
+    display: none;
+  }
+  .title {
+    flex: 70%;
+    height: 90%;
+  }
 }
 
