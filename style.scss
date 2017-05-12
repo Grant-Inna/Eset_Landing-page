@@ -73,6 +73,13 @@
   left: 44%;   /*Напрашиваются расчёты и переменная в зависимости от размера экрана*/
 }
 
+.mediaEmptySpaces {
+  width: 100%;
+  height: $advantagesHeight / $decreaseNum;
+  background: none;
+  display: none;
+}
+
 .advantages {
   width: 100%;
   height: $advantagesHeight;

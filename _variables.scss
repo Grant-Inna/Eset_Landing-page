@@ -28,6 +28,8 @@ $h3FontSize: 1.2rem;
 
 $mainFontSize: 10px;
 
+$decreaseNum: 2;
+
 
 @mixin makeItCenter($align-items: center) {
   display: -webkit-box;

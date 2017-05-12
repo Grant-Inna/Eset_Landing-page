@@ -1,8 +1,15 @@
 @import "variables";
 
 @media screen and (min-width: 500px) and (orientation: landscape) {
+  $sloganHeight: 6%;
   .advantages {
     display: none;
+  }
+  .mediaEmptySpaces {
+    display: block;
+  }
+  .slogan {
+    height: $sloganHeight;
   }
 }
 
