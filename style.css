@@ -205,4 +205,37 @@ a {
   align-items: center;
   background-color: #f0f5f7; }
 
+html {
+  font-size: 10px; }
+
+html,
+body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-size: 1rem;
+  color: #eaeaea;
+  font-family: "PFDinDisplay", sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  margin: 0 !important;
+  font-size: 1rem; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+@media screen and (min-width: 320px) {
+  .title__text {
+    font-size: 1.5rem; }
+
+  .advantages__title {
+    font-size: 1.2rem; } }
+
 /*# sourceMappingURL=style.css.map */
