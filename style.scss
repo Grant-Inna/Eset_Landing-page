@@ -29,8 +29,9 @@
 }
 
 .logo {
-  width: 30%;
-  height: 42%;
+  width: 40%;
+  height: 44%;
+
 
   background: url("./img/logo.png") center no-repeat;
   background-size: contain;
@@ -73,7 +74,7 @@
 
 .mediaEmptySpaces {
   width: 100%;
-  height: $advantagesHeight / $decreaseNum;
+  height: 10%;
   background: $mediaEmptySpacesMainColor;
 }
 
@@ -137,7 +138,7 @@
 
 .emptySpaces {
   width: 100%;
-  height: $emptySpacesHeight;
+  height: inherit;
   @include makeItCenter();
   -webkit-box-shadow: inset 0 1px 20px 5px rgba(0, 0, 0, 0.35);
   box-shadow: inset 0 1px 20px 5px rgba(0, 0, 0, 0.35);
