@@ -61,6 +61,11 @@ $decreaseNum: 2;
   -webkit-transition: $what $time linear
 }
 
+@mixin justFlex() {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 
 html {

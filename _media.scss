@@ -43,7 +43,7 @@
 
 @media screen and (min-width: 300px) and (orientation: portrait) {
   .advantages {
-    display: flex;
+    @include justFlex();
   }
   .mediaEmptySpaces {
     display: none;
@@ -72,7 +72,7 @@
     font-size: $h3FontSize;
   }
   .advantages {
-    display: flex;
+    @include justFlex();
   }
   .mediaEmptySpaces {
     display: none;
@@ -106,7 +106,7 @@
     background-size: cover;
   }
   .advantages {
-    display: flex;
+    @include justFlex();
   }
   .mediaEmptySpaces {
     display: none;

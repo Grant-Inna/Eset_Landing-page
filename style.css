@@ -270,6 +270,8 @@ a {
     height: 214px; } }
 @media screen and (min-width: 300px) and (orientation: portrait) {
   .advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
 
   .mediaEmptySpaces {
@@ -291,6 +293,8 @@ a {
     font-size: 1.6rem; }
 
   .advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
 
   .mediaEmptySpaces {
@@ -313,6 +317,8 @@ a {
     background-size: cover; }
 
   .advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
 
   .mediaEmptySpaces {
