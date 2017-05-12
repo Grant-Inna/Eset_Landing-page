@@ -62,13 +62,13 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: url("headerBG.jpg") 70% no-repeat; }
+  background: url("./img/headerBG.jpg") 70% no-repeat; }
 
 .logo {
   flex: 30%;
   width: 100%;
   height: 42%;
-  background: url("logo.png") center no-repeat;
+  background: url("./img/logo.png") center no-repeat;
   background-size: contain; }
 
 .title {
@@ -249,7 +249,8 @@ a {
     height: 320px; }
 
   .header {
-    height: 48px; }
+    height: 48px;
+    background: url("./img/smallHeaderBG") 70% no-repeat; }
 
   .slogan {
     height: 10px; }
@@ -304,5 +305,14 @@ a {
 @media screen and (min-width: 760px) and (orientation: portrait) {
   html {
     font-size: 14px; } }
+@media screen and (min-width: 1000px) and (orientation: portrait) {
+  html {
+    font-size: 20px; }
+
+  .title__text {
+    font-size: 2.3rem; } }
+@media screen and (min-width: 900px) and (orientation: landscape) {
+  .header {
+    background: url("./img/bigHeaderBG") 70% no-repeat; } }
 
 /*# sourceMappingURL=style.css.map */

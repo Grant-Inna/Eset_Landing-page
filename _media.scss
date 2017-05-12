@@ -18,8 +18,11 @@
   .mainContainer {
     height: 320px;
   }
+  $headerImg: "./img/smallHeaderBG";
+  $headerMainBack: url($headerImg) 70% no-repeat;
   .header {
     height: 48px;
+    background: $headerMainBack;
   }
   .slogan {
     height: 10px;
@@ -90,6 +93,23 @@
   $mainFontSize: 14px;
   html {
     font-size: $mainFontSize;
+  }
+}
+@media screen and (min-width: 1000px) and (orientation: portrait) {
+  $mainFontSize: 20px;
+  html {
+    font-size: $mainFontSize;
+  }
+  $h1FontSize: 2.3rem;
+  .title__text {
+    font-size: $h1FontSize;
+  }
+}
+@media screen and (min-width: 900px) and (orientation: landscape) {
+  $headerImg: "./img/bigHeaderBG";
+  $headerMainBack: url($headerImg) 70% no-repeat;
+  .header {
+    background: $headerMainBack;
   }
 }
 
