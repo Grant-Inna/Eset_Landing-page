@@ -170,7 +170,7 @@ a {
   height: 70%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   border-right: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 3px;
+  border-radius: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,6 +256,9 @@ a {
 @media all and (device-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .mainContainer {
     height: 320px; }
+
+  .header {
+    height: 50%; }
 
   .slogan {
     height: 10px; }
