@@ -154,9 +154,9 @@ a {
   color: #434d57; }
 
 .advantages__img {
-  height: 50%;
+  height: 53%;
   width: 100%;
-  background: url("./img/eset_sp_box.png") no-repeat center;
+  background: url("./img/eset_sp_box.png") no-repeat bottom;
   background-size: contain; }
 
 .advantages__text {
@@ -306,7 +306,16 @@ a {
     height: 53.5%; } }
 @media screen and (min-width: 660px) and (orientation: landscape) {
   .slogan__triangle {
-    left: 47%; } }
+    left: 47%; }
+
+  .advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+
+  .advantages__img {
+    height: 90%;
+    width: 33%; } }
 @media screen and (min-width: 700px) and (orientation: landscape) {
   .title__text {
     font-size: 2rem; }
@@ -342,7 +351,10 @@ a {
     font-size: 14px; }
 
   .advantages__img {
-    height: 60%; } }
+    height: 60%; }
+
+  .slogan__triangle {
+    left: 48%; } }
 @media screen and (min-width: 1000px) and (orientation: portrait) {
   html {
     font-size: 17px; }
