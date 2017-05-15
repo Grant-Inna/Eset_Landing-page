@@ -362,7 +362,27 @@ a {
     height: 60%; }
 
   .slogan__triangle {
-    left: 48%; } }
+    left: 48%; }
+
+  #template-caption-pilot span {
+    font-size: 16px !important; } }
+@media screen and (min-width: 900px) and (orientation: landscape) {
+  .header {
+    background: url("./img/bigHeaderBG.jpg") 95% 5% no-repeat;
+    background-size: cover; }
+
+  .mediaEmptySpaces {
+    display: none; }
+
+  .title {
+    -webkit-box-flex: 70%;
+    -ms-flex: 70%;
+    flex: 70%;
+    height: 90%;
+    margin-right: 5%; }
+
+  #template-caption-pilot span {
+    font-size: 16px !important; } }
 @media screen and (min-width: 1000px) and (orientation: portrait) {
   html {
     font-size: 17px; }
@@ -377,20 +397,6 @@ a {
 
   .logo {
     width: 25%; } }
-@media screen and (min-width: 900px) and (orientation: landscape) {
-  .header {
-    background: url("./img/bigHeaderBG.jpg") 95% 5% no-repeat;
-    background-size: cover; }
-
-  .mediaEmptySpaces {
-    display: none; }
-
-  .title {
-    -webkit-box-flex: 70%;
-    -ms-flex: 70%;
-    flex: 70%;
-    height: 90%;
-    margin-right: 5%; } }
 @media screen and (min-width: 1200px) {
   .title {
     -webkit-box-pack: end;
