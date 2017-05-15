@@ -229,7 +229,8 @@ a {
   background-color: #007e8a; }
 
 #template-caption-pilot span {
-  font-size: 10px; }
+  font-size: 10px;
+  font-family: Arial !important; }
 
 html {
   font-size: 10px; }
