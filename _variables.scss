@@ -67,6 +67,19 @@ $decreaseNum: 2;
   display: flex;
 }
 
+@mixin rowAndCenter() {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 
 html {
   font-size: $mainFontSize;

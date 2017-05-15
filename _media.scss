@@ -29,7 +29,7 @@
     height: 90%;
   }
   .slogan__triangle {
-    border-width: 18px 25px 0 25px;
+    border-width: 10px 25px 0 25px;
   }
   .advantages {
     display: none;
@@ -53,18 +53,22 @@
     display: none;
   }
   .advantages__img {
-    height: 53.5%;
+    height: 55%;
+  }
+  .slogan__triangle {
+    border-width: 12px 25px 0 25px;
   }
 }
 
 @media screen and (min-width: 660px) and (orientation: landscape) {
+  .mediaEmptySpaces {
+    display: none;
+  }
   .slogan__triangle {
     left: 47%;
   }
   .advantages {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    @include rowAndCenter();
   }
   .advantages__img {
     height: 90%;
@@ -83,19 +87,15 @@
   }
   .advantages {
     height: $advantagesHeight;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .advantages__title {
     font-size: $h3FontSize;
   }
-  .advantages__img {
-    display: none;
-  }
   .subscribe__title {
     font-size: $h3FontSize;
-  }
-  .advantages {
-    @include justFlex();
   }
   .mediaEmptySpaces {
     display: none;
@@ -127,6 +127,8 @@
     margin-right: 8%;
   }
   .title {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .logo {
@@ -139,13 +141,12 @@
     background: url($headerImg) 95% 5% no-repeat;
     background-size: cover;
   }
-  .advantages {
-    @include justFlex();
-  }
   .mediaEmptySpaces {
     display: none;
   }
   .title {
+    -webkit-box-flex: 70%;
+    -ms-flex: 70%;
     flex: 70%;
     height: 90%;
     margin-right: 5%;
@@ -153,6 +154,8 @@
 }
 @media screen and (min-width: 1200px) {
   .title {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
   }
   $h1FontSize: 2rem;
