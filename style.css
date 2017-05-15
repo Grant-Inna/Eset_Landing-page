@@ -280,7 +280,7 @@ a {
     height: 90%; }
 
   .slogan__triangle {
-    border-width: 6px 25px 0 25px; }
+    border-width: 10px 25px 0 25px; }
 
   .advantages {
     display: none; }
@@ -303,8 +303,14 @@ a {
     display: none; }
 
   .advantages__img {
-    height: 53.5%; } }
+    height: 53.5%; }
+
+  .slogan__triangle {
+    border-width: 12px 25px 0 25px; } }
 @media screen and (min-width: 660px) and (orientation: landscape) {
+  .mediaEmptySpaces {
+    display: none; }
+
   .slogan__triangle {
     left: 47%; }
 
