@@ -3,6 +3,36 @@
 @import "variables";
 @import "fonts";
 
+
+html {
+  font-size: $mainFontSize;
+}
+
+html,
+body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  color: $textColor_white;
+  font-family: "PFDinDisplay", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0 !important;
+  font-size: 1rem;
+}
+a {
+  color: inherit;
+}
+
 .mainContainer {
   width: 100%;
   height: 100%;
@@ -31,7 +61,7 @@
 .logo {
   width: 32%;
   height: 44%;
-  background: url("./img/logo.png") center no-repeat;
+  background: url("../img/logo.png") center no-repeat;
   background-size: contain;
 }
 
@@ -67,7 +97,7 @@
   border-width: 20px 25px 0 25px;
   border-color: $sloganMainColor transparent transparent transparent;
   top: 99%;
-  left: 44%;   /*Напрашиваются расчёты и переменная в зависимости от размера экрана*/
+  left: 44%;
 }
 
 .mediaEmptySpaces {
@@ -101,7 +131,7 @@
 .advantages__img {
   height: 53%;
   width: 100%;
-  background: url("./img/eset_sp_box.png") no-repeat bottom;
+  background: url("../img/eset_sp_box.png") no-repeat bottom;
   background-size: contain;
 }
 .advantages__text {
@@ -119,6 +149,7 @@
 .subscribe__link {
   width: 70%;
   height: 70%;
+  text-decoration: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   border-right: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -160,7 +191,16 @@
 
   background-color: $emptySpacesMainColor;
 }
-
+#template-caption-pilot span {
+  font-size: 10px;
+  font-family: Arial !important;
+}
+#template-caption-pilot span a {
+  text-decoration: underline;
+}
+.hide__content {
+  display: none;
+}
 
 
 

@@ -103,6 +103,9 @@
   .slogan__triangle {
     border-width: 20px 25px 0 25px;
   }
+  .emptySpaces {
+    font-size: 16px;
+  }
 
 }
 
@@ -116,6 +119,29 @@
   }
   .slogan__triangle {
     left: 48%;
+  }
+  .emptySpaces {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 900px) and (orientation: landscape) {
+  $headerImg: "../img/bigHeaderBG.jpg";
+  .header {
+    background: url($headerImg) 95% 5% no-repeat;
+    background-size: cover;
+  }
+  .mediaEmptySpaces {
+    display: none;
+  }
+  .title {
+    -webkit-box-flex: 70%;
+    -ms-flex: 70%;
+    flex: 70%;
+    height: 90%;
+    margin-right: 5%;
+  }
+  .emptySpaces {
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 1000px) and (orientation: portrait) {
@@ -135,23 +161,7 @@
     width: 25%;
   }
 }
-@media screen and (min-width: 900px) and (orientation: landscape) {
-  $headerImg: "./img/bigHeaderBG.jpg";
-  .header {
-    background: url($headerImg) 95% 5% no-repeat;
-    background-size: cover;
-  }
-  .mediaEmptySpaces {
-    display: none;
-  }
-  .title {
-    -webkit-box-flex: 70%;
-    -ms-flex: 70%;
-    flex: 70%;
-    height: 90%;
-    margin-right: 5%;
-  }
-}
+
 @media screen and (min-width: 1200px) {
   .title {
     -webkit-box-pack: end;

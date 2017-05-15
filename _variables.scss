@@ -3,7 +3,7 @@ $lightBlue: #007e8a;
 $textColor_white: #eaeaea;
 
 $mainContainerBackground: $lightBlue;
-$headerImg: "./img/headerBG.jpg";
+$headerImg: "../img/headerBG.jpg";
 $headerMainBack: url($headerImg) 70% no-repeat;
 $sloganMainColor: #434d57;
 $advantagesMainColor: #ffffff;
@@ -80,33 +80,3 @@ $decreaseNum: 2;
   justify-content: center;
 }
 
-
-html {
-  font-size: $mainFontSize;
-}
-
-html,
-body {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 1rem;
-  color: $textColor_white;
-  font-family: "PFDinDisplay", sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-  margin: 0 !important;
-  font-size: 1rem;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
