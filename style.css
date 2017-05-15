@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*sass --watch style.scss:style.css*/
 html {
   font-size: 10px; }
 
@@ -116,8 +115,7 @@ a {
   border-width: 20px 25px 0 25px;
   border-color: #434d57 transparent transparent transparent;
   top: 99%;
-  left: 44%;
-  /*═ряЁр°штр■Єё  Ёрёў╕Є√ ш яхЁхьхээр  т чртшёшьюёЄш юЄ ЁрчьхЁр ¤ъЁрэр*/ }
+  left: 44%; }
 
 .mediaEmptySpaces {
   width: 100%;
@@ -338,6 +336,8 @@ a {
 
   .advantages {
     height: 35%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
 
   .advantages__title {
@@ -368,6 +368,8 @@ a {
     margin-right: 8%; }
 
   .title {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
 
   .logo {
@@ -381,11 +383,15 @@ a {
     display: none; }
 
   .title {
+    -webkit-box-flex: 70%;
+    -ms-flex: 70%;
     flex: 70%;
     height: 90%;
     margin-right: 5%; } }
 @media screen and (min-width: 1200px) {
   .title {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end; }
 
   .title__text {
