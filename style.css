@@ -280,7 +280,7 @@ a {
     height: 90%; }
 
   .slogan__triangle {
-    border-width: 18px 25px 0 25px; }
+    border-width: 6px 25px 0 25px; }
 
   .advantages {
     display: none; }
@@ -337,16 +337,8 @@ a {
   .advantages__title {
     font-size: 1.6rem; }
 
-  .advantages__img {
-    display: none; }
-
   .subscribe__title {
     font-size: 1.6rem; }
-
-  .advantages {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
 
   .mediaEmptySpaces {
     display: none; }
@@ -378,11 +370,6 @@ a {
   .header {
     background: url("./img/bigHeaderBG.jpg") 95% 5% no-repeat;
     background-size: cover; }
-
-  .advantages {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
 
   .mediaEmptySpaces {
     display: none; }
