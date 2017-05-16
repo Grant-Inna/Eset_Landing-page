@@ -139,6 +139,9 @@
   }
 }
 @media screen and (min-width: 900px) and (orientation: landscape) {
+  .mainContainer {
+    height: 100%;
+  }
   $headerImg: "../img/bigHeaderBG.jpg";
   .header {
     background: url($headerImg) 95% 5% no-repeat;

@@ -359,6 +359,9 @@ a {
   .emptySpaces {
     font-size: 18px; } }
 @media screen and (min-width: 900px) and (orientation: landscape) {
+  .mainContainer {
+    height: 100%; }
+
   .header {
     background: url("../img/bigHeaderBG.jpg") 95% 5% no-repeat;
     background-size: cover; }
