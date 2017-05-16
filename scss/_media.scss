@@ -1,29 +1,26 @@
 @import "variables";
 
-@media screen and (min-width: 400px) and (orientation: landscape) {
-  $sloganHeight: 3%;
-  .slogan {
-    height: $sloganHeight;
-  }
-  .subscribe__link {
-    height: 80%;
-  }
-  .slogan__triangle {
-    border-width: 18px 25px 0 25px;
-  }
+
+@media all and (min-width: 320px) and (orientation: portrait) {
+
 }
 
-
-@media all and (device-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media all and (min-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .mainContainer {
     height: 320px;
+  }
+  .header {
+    height: 25%;
   }
   .logo {
     width: 40%;
     height: 42%;
   }
   .slogan {
-    height: 10px;
+    height: 8px;
+  }
+  .slogan__title {
+    font-size: 1.2rem;
   }
   .subscribe__link {
     height: 90%;
@@ -35,7 +32,7 @@
     display: none;
   }
   .mediaEmptySpaces {
-    height: 22px;
+    height: 35px;
   }
   .subscribe {
     height: 26px;
@@ -45,9 +42,26 @@
   }
 }
 
+@media screen and (min-width: 400px) and (orientation: landscape) {
+  $sloganHeight: 2%;
+  .slogan {
+    height: $sloganHeight;
+  }
+  .subscribe__link {
+    height: 120%;
+  }
+  .slogan__triangle {
+    border-width: 18px 25px 0 25px;
+  }
+}
+
 @media screen and (min-width: 300px) and (orientation: portrait) {
+  .slogan__title {
+    font-size: 1.2rem;
+  }
   .advantages {
     @include justFlex();
+    height: 40%;
   }
   .mediaEmptySpaces {
     display: none;

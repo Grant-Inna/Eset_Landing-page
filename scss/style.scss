@@ -78,7 +78,7 @@ a {
 .slogan {
   width: 100%;
   height: $sloganHeight;
-  min-height: 50px;
+  min-height: 30px;
 
   position: relative;
   @include makeItCenter();
