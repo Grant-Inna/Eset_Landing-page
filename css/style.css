@@ -111,7 +111,7 @@ a {
   -webkit-flex: 0.5;
       -ms-flex: 0.5;
           flex: 0.5;
-  min-height: 30px;
+  min-height: 10px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -337,21 +337,31 @@ a {
 @media screen and (min-width: 300px) and (orientation: portrait) {
   .slogan__title {
     font-size: 0; }
+  .slogan {
+    -webkit-box-flex: 0.2;
+    -webkit-flex: 0.2;
+        -ms-flex: 0.2;
+            flex: 0.2; }
   .advantages {
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -webkit-box-flex: 3;
-    -webkit-flex: 3;
-        -ms-flex: 3;
-            flex: 3; }
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+  .mediaEmptySpaces {
+    display: none; }
   .advantages__img {
     display: none; }
   .slogan__triangle {
     border-width: 12px 25px 0 25px; }
   .price {
-    height: 1; } }
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; } }
 
 @media all and (min-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .mainContainer {
