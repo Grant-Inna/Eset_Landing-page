@@ -373,21 +373,22 @@ a {
     -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1; }
-  .slogan {
-    height: 8px; }
   .slogan__title {
     font-size: 0; }
-  .subscribe__link {
-    height: 90%; }
+  .subscribe {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
   .slogan__triangle {
     border-width: 10px 25px 0 25px; }
   .advantages {
     display: none; }
   .mediaEmptySpaces {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1; }
+    -webkit-box-flex: 0.33333;
+    -webkit-flex: 0.33333;
+        -ms-flex: 0.33333;
+            flex: 0.33333; }
   .subscribe {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
