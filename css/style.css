@@ -357,6 +357,8 @@ a {
     display: none; }
   .slogan__triangle {
     border-width: 12px 25px 0 25px; }
+  .subscribe__link {
+    height: 100%; }
   .price {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
