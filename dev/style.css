@@ -360,13 +360,26 @@ p {
   .subscribe__link {
   }
   .emptySpaces {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .logo {
+    width: 40%;
+    height: 80px;
+  }
+  .title__text {
+    font-size: 3rem }
+  .price {
+    align-items: flex-start;
+  }
+  .hideBR {
+    display: none;
+  }
+  .title {
+    justify-content: center; }}
 
 @media screen and (min-width: 900px) and (orientation: landscape) {
   .mainContainer {
     height: 100%; }
   .header {
-    background: url("../img/bigHeaderBG.jpg") 95% 5% no-repeat;
     background-size: cover;
   flex: 2}
   .title {
@@ -398,12 +411,20 @@ p {
 @media screen and (min-width: 1000px) and (orientation: portrait) {
   html {
     font-size: 17px; }
-  .title__text {
-    margin-right: 8%; }
-  .title {
-    justify-content: center; }
   .logo {
-    width: 25%; } }
+    width: 40%;
+    height: 80px;
+  }
+  .title__text {
+    font-size: 3rem }
+  .price {
+    align-items: flex-start;
+  }
+  .hideBR {
+    display: none;
+  }
+  .title {
+    justify-content: center; } }
 
 @media screen and (min-width: 1200px) {
   .title {

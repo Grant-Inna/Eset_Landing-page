@@ -550,7 +550,6 @@ p {
   .mainContainer {
     height: 100%; }
   .header {
-    background: url("../img/bigHeaderBG.jpg") 95% 5% no-repeat;
     background-size: cover;
   -webkit-box-flex: 2;
   -webkit-flex: 2;
