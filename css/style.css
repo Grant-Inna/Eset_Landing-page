@@ -385,10 +385,11 @@ a {
   .slogan__title {
     font-size: 0; }
   .subscribe {
-    -webkit-box-flex: 3;
-    -webkit-flex: 3;
-        -ms-flex: 3;
-            flex: 3; }
+    -webkit-box-flex: 7;
+    -webkit-flex: 7;
+        -ms-flex: 7;
+            flex: 7;
+  background: yellow;}
   .slogan__triangle {
     border-width: 4px 25px 0 25px; }
   .advantages {

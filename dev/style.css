@@ -256,7 +256,8 @@ a {
   .slogan__title {
     font-size: 0; }
   .subscribe {
-    flex: 3; }
+    flex: 7;
+  background: yellow;}
   .slogan__triangle {
     border-width: 4px 25px 0 25px; }
   .advantages {
