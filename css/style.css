@@ -154,10 +154,6 @@ a {
   width: 80%;
   text-align: center;
   margin: 20px auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 /*.advantages__img {
   width: 100%;
@@ -217,6 +213,17 @@ a {
     padding-right: 0;
     line-height: 12px;
   }
+  .advantages__title,
+  .advantages__text-bold {
+    font-size: 2.2rem;
+  }
+  .advantages__text-bold {
+    margin-top: 10px;
+  }
+
+  .advantages__text-strong {
+    border-color: transparent;
+  }
   .header__col-logo {
     -webkit-flex-basis: 20%;
         -ms-flex-preferred-size: 20%;
@@ -232,6 +239,7 @@ a {
   }
   .advantages {
     width: 96%;
+    margin: 5px auto;
   }
   .advantages__text-p {
     display: none;
