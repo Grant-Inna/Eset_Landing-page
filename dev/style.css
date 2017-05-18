@@ -254,9 +254,9 @@ a {
   .slogan__title {
     font-size: 0; }
   .subscribe {
-    flex: .5; }
+    flex: .7; }
   .slogan__triangle {
-    border-width: 6px 25px 0 25px; }
+    border-width: 4px 25px 0 25px; }
   .advantages {
     display: none; }
   .mediaEmptySpaces {
