@@ -369,6 +369,10 @@ p {
     background: url("../img/bigHeaderBG.jpg") 95% 5% no-repeat;
     background-size: cover;
   flex: 2}
+  .title {
+    text-align: end;
+    width: 75%;
+  }
   .logo {
     width: 40%;
     height: 90px;
