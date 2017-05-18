@@ -216,6 +216,9 @@ a {
   .footer__text-block {
     padding: 5px
   }
+  .advantages__text-strong {
+    border-color: transparent;
+  }
   .advantages__text-p {
     display: none;
   }
