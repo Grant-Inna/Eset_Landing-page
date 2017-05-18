@@ -563,6 +563,7 @@ p {
   .mediaEmptySpaces {
     display: none; }
   .advantages__img {
+    display: block;
     background: url("../img/production.png") center no-repeat;
     background-size: contain;
     width: 385px;
