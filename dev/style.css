@@ -236,6 +236,53 @@ a {
     font-size: 22px;
   }
 }
+@media screen and (max-width: 375px) and (orientation: landscape) {
+  html {
+    font-size: 4px;
+  }
+  .header__title {
+    font-size: 1.8rem;
+    padding-right: 0;
+    line-height: 8px;
+  }
+  .advantages__title,
+  .advantages__text-bold {
+    font-size: 2.2rem;
+  }
+  .advantages__text-bold {
+    margin-top: 10px;
+  }
+  .advantages__text-topic {
+    margin-top: 20px;
+  }
+
+  .advantages__text-strong {
+    border-color: transparent;
+  }
+  .header__col-logo {
+    flex-basis: 20%;
+  }
+  .header__logo {
+    padding: 0;
+  }
+  .header__col-title {
+    flex-basis: 80%;
+  }
+  .advantages {
+    width: 96%;
+    margin: 5px auto;
+  }
+  .advantages__text-p {
+    display: none;
+  }
+  .buttons {
+    top: 65%;
+  }
+  .buttons__btn {
+    width: 90%;
+    font-size: 22px;
+  }
+}
 @media (orientation: landscape) {
   .footer__text-block {
     padding: 5px
