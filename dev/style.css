@@ -270,7 +270,7 @@ p {
   .advantages {
     display: none; }
   .mediaEmptySpaces {
-    flex: 0.6; }
+    flex: 0.4; }
   .subscribe {
     flex: .3;
     padding-top: 4px;}

@@ -402,10 +402,10 @@ p {
   .advantages {
     display: none; }
   .mediaEmptySpaces {
-    -webkit-box-flex: 0.6;
-    -webkit-flex: 0.6;
-        -ms-flex: 0.6;
-            flex: 0.6; }
+    -webkit-box-flex: 0.4;
+    -webkit-flex: 0.4;
+        -ms-flex: 0.4;
+            flex: 0.4; }
   .subscribe {
     -webkit-box-flex: .3;
     -webkit-flex: .3;
