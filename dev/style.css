@@ -201,8 +201,11 @@ a {
   .footer__text-block {
     padding: 5px
   }
+  .advantages__text-p {
+    display: none;
+  }
   .buttons {
-    top: 75%;
+    top: 77%;
   }
   .footer {
     position: fixed;
