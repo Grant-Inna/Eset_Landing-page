@@ -239,6 +239,7 @@ a {
 @media screen and (max-width: 528px) and (orientation: landscape) {
   html {
     font-size: 4px;
+    position: fixed;
   }
   .header__title {
     font-size: 1.8rem;
