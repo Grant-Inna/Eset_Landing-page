@@ -236,7 +236,7 @@ a {
     font-size: 22px;
   }
 }
-@media screen and (max-width: 375px) and (orientation: landscape) {
+@media screen and (max-width: 528px) and (orientation: landscape) {
   html {
     font-size: 4px;
   }
