@@ -280,7 +280,9 @@ a {
 
 .subscribe__title {
   color: #ffffff;
-  font-size: 22px !important; }
+  font-size: 22px !important;
+  -webkit-margin-before: 5em;
+  -webkit-margin-after: 5em; }
 
 .price {
   width: 100%;
