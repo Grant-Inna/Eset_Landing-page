@@ -158,6 +158,7 @@ a {
   margin: 10px;
 }
 .advantages__text-strong {
+  text-align: center;
   border-bottom: 2px ridge #83bf0a;
   padding-bottom: 2px;
 }
@@ -201,6 +202,9 @@ a {
   .footer__text-block {
     padding: 5px
   }
+  .advantages__text-topic {
+    margin-top: 20px;
+  }
   .advantages__text-strong {
     border-color: transparent;
   }
@@ -208,7 +212,7 @@ a {
     display: none;
   }
   .buttons {
-    top: 77%;
+    top: 80%;
   }
   .footer {
     position: fixed;
