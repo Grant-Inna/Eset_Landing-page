@@ -375,6 +375,11 @@ p {
   }
   .mediaEmptySpaces {
     display: none; }
+  .advantages__img {
+    background: url("../img/production.png") center no-repeat;
+    background-size: contain;
+    width: 385px;
+  }
   .title__text {
     font-size: 3rem;
   }

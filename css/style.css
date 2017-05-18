@@ -309,7 +309,7 @@ p {
           align-items: center; }
 
 .price__text {
-  font-size: 1.65rem; }
+  font-size: 18px !important; }
 
 .emptySpaces {
   width: 100%;
@@ -335,6 +335,16 @@ p {
   display: none; }
 .hideBR {
   display: none;
+}
+.footer__text-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 @media screen and (min-width: 300px) and (orientation: portrait) {
   .slogan__title {
@@ -552,7 +562,13 @@ p {
   }
   .mediaEmptySpaces {
     display: none; }
-  .title {
+  .advantages__img {
+    background: url("../img/production.png") center no-repeat;
+    background-size: contain;
+    width: 385px;
+  }
+  .title__text {
+    font-size: 3rem;
   }
   .slogan {
     -webkit-box-flex: 1;
