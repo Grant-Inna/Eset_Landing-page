@@ -184,7 +184,7 @@ a {
 .footer__text-block {
   padding: 10px;
   margin: 0;
-  font-size: .7rem;
+  font-size: 10px;
   color: #fff;
 }
 .footer__text-block a {
@@ -194,8 +194,35 @@ a {
   display: none;
 }
 @media screen and (max-width: 375px) {
+  html {
+    font-size: 6px;
+  }
   .header__title {
-    font-size: 16px;
+    font-size: 1.8rem;
+    padding-right: 0;
+    line-height: 12px;
+  }
+  .header__col-logo {
+    flex-basis: 20%;
+  }
+  .header__logo {
+    padding: 0;
+  }
+  .header__col-title {
+    flex-basis: 80%;
+  }
+  .advantages {
+    width: 96%;
+  }
+  .advantages__text-p {
+    display: none;
+  }
+  .buttons {
+    top: 65%;
+  }
+  .buttons__btn {
+    width: 90%;
+    font-size: 22px;
   }
 }
 @media (orientation: landscape) {
