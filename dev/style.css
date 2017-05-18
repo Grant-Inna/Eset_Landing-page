@@ -39,7 +39,6 @@ a {
 p {
   -webkit-margin-before: .3em;
   -webkit-margin-after: .3em;
-
 }
 
 .mainContainer {
@@ -271,7 +270,7 @@ p {
   .advantages {
     display: none; }
   .mediaEmptySpaces {
-    flex: 0.1; }
+    flex: 0.2; }
   .subscribe {
     flex: .3;
     padding-top: 4px;}
@@ -286,7 +285,7 @@ p {
   .subscribe__link {
     height: 120%; }
   .slogan__triangle {
-    border-width: 18px 25px 0 25px; } }
+    border-width: 10px 25px 0 25px; } }
 
 @media screen and (min-width: 660px) and (orientation: landscape) {
   .mediaEmptySpaces {
