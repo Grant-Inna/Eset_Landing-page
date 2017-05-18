@@ -218,7 +218,9 @@ a {
 
 .hide__content {
   display: none; }
-
+.hideBR {
+  display: none;
+}
 @media screen and (min-width: 300px) and (orientation: portrait) {
   .slogan__title {
     font-size: 0; }
@@ -256,7 +258,7 @@ a {
   .subscribe {
     flex: 1; }
   .slogan__triangle {
-    border-width: 4px 5px 0 5px; }
+    display: none }
   .advantages {
     display: none; }
   .mediaEmptySpaces {
