@@ -247,16 +247,19 @@ a {
     height: 320px; }
   .header {
     flex: 1; }
+  .slogan {
+    flex: 0.2;
+  }
   .slogan__title {
     font-size: 0; }
   .subscribe {
-    flex: 1; }
+    flex: .5; }
   .slogan__triangle {
     border-width: 10px 25px 0 25px; }
   .advantages {
     display: none; }
   .mediaEmptySpaces {
-    flex: 0.33333; }
+    flex: 0.1; }
   .subscribe {
     flex: 1; }
   .price {
