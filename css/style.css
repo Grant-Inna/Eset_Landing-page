@@ -389,7 +389,7 @@ a {
     -webkit-flex: 7;
         -ms-flex: 7;
             flex: 7;
-  background: yellow;}
+  }
   .slogan__triangle {
     border-width: 4px 25px 0 25px; }
   .advantages {
