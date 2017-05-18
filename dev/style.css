@@ -380,6 +380,7 @@ p {
     background: url("../img/production.png") center no-repeat;
     background-size: contain;
     width: 385px;
+    height: 250px;
   }
   .title__text {
     font-size: 3rem;
