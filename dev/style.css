@@ -280,14 +280,20 @@ p {
     flex: 2; } }
 
 @media screen and (min-width: 400px) and (orientation: landscape) {
+  .mainContainer {
+    height: 100%;
+  }
   .slogan {
-    height: 2%; }
+    flex: .3 }
   .subscribe__link {
     height: 120%; }
   .slogan__triangle {
-    border-width: 10px 25px 0 25px; } }
+    border-width: 13px 25px 0 25px; } }
 
 @media screen and (min-width: 660px) and (orientation: landscape) {
+  .mainContainer {
+    height: 100%;
+  }
   .mediaEmptySpaces {
     display: none; }
   .slogan__triangle {
@@ -298,11 +304,26 @@ p {
     justify-content: center; }
   .advantages__img {
     height: 90%;
-    width: 33%; } }
+    width: 33%; }
+  .advantages__text {
+  margin-bottom: 0; }
+  .subscribe {
+    flex: .7;
+  }
+  .price {
+    flex: 1;
+  }
+}
 
 @media screen and (min-width: 700px) and (orientation: landscape) {
+  .mainContainer {
+    height: 100%;
+  }
   .title__text {
     font-size: 2rem; }
+  .slogan {
+    flex: 1.5;
+  }
   .slogan__title {
     font-size: 1.6rem; }
   .advantages {
@@ -316,8 +337,7 @@ p {
     display: none; }
   .slogan__triangle {
     border-width: 20px 25px 0 25px; }
-  .emptySpaces {
-    font-size: 16px; } }
+}
 
 @media screen and (min-width: 760px) and (orientation: portrait) {
   html {
