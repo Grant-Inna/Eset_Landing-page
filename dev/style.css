@@ -238,7 +238,7 @@ a {
     font-size: 5rem}
   .price {
     flex: 1; }
-  .price__text br {
+  .hideBR {
     display: block;
   }
 }
@@ -256,7 +256,7 @@ a {
   .subscribe {
     flex: .7; }
   .slogan__triangle {
-    border-width: 4px 25px 0 25px; }
+    border-width: 4px 5px 0 5px; }
   .advantages {
     display: none; }
   .mediaEmptySpaces {

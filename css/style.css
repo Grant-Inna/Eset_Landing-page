@@ -361,7 +361,7 @@ a {
     -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1; }
-  .price__text br {
+  .hideBR {
     display: block;
   }
 }
@@ -388,7 +388,7 @@ a {
         -ms-flex: .7;
             flex: .7; }
   .slogan__triangle {
-    border-width: 4px 25px 0 25px; }
+    border-width: 4px 5px 0 5px; }
   .advantages {
     display: none; }
   .mediaEmptySpaces {
