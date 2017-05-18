@@ -250,6 +250,9 @@ a {
     height: 320px; }
   .header {
     flex: .6; }
+  .title__text {
+    margin-right: 5px;
+  }
   .slogan {
     flex: 0.2;
   }

@@ -376,6 +376,9 @@ a {
     -webkit-flex: .6;
         -ms-flex: .6;
             flex: .6; }
+  .title__text {
+    margin-right: 5px;
+  }
   .slogan {
     -webkit-box-flex: 0.2;
     -webkit-flex: 0.2;
