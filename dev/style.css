@@ -100,7 +100,7 @@ a {
   border-style: solid;
   border-width: 20px 25px 0 25px;
   border-color: #434d57 transparent transparent transparent;
-  top: 99%;
+  top: 19%;
   left: 44%; }
 
 .mediaEmptySpaces {
@@ -237,8 +237,8 @@ a {
   .slogan__triangle {
     border-width: 12px 25px 0 25px; }
   .subscribe__link {
-    height: 100%;
-  font-size: 2rem}
+    flex: 1;
+    font-size: 2rem}
   .price {
     flex: 1; } }
 
