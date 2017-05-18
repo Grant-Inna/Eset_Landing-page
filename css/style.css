@@ -352,12 +352,8 @@ a {
   .slogan__triangle {
     border-width: 12px 25px 0 25px; }
   .subscribe__link {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    background: yellow;
-    font-size: 2rem}
+    height: auto;
+    font-size: 5rem}
   .price {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
