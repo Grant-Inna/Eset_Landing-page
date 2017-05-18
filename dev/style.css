@@ -204,7 +204,7 @@ p {
   align-items: center; }
 
 .price__text {
-  font-size: 1.65rem; }
+  font-size: 18px !important; }
 
 .emptySpaces {
   width: 100%;
@@ -225,6 +225,10 @@ p {
 .hideBR {
   display: none;
 }
+.footer__text-block {
+  display: flex;
+  align-items: flex-end;
+}
 @media screen and (min-width: 300px) and (orientation: portrait) {
   .slogan__title {
     font-size: 0; }
@@ -240,8 +244,9 @@ p {
   .slogan__triangle {
     border-width: 12px 25px 0 25px; }
   .subscribe__link {
-    height: auto;
-    font-size: 5rem}
+    font-size: 22px;
+    height: 35%;
+  }
   .price {
     flex: 1; }
   .hideBR {
@@ -337,15 +342,23 @@ p {
     display: none; }
   .slogan__triangle {
     border-width: 20px 25px 0 25px; }
+  .subscribe {
+    flex: .5;
+  }
 }
 
 @media screen and (min-width: 760px) and (orientation: portrait) {
   html {
     font-size: 14px; }
+  .advantages {
+    flex: 1;
+  }
   .advantages__img {
     height: 60%; }
   .slogan__triangle {
     left: 48%; }
+  .subscribe__link {
+  }
   .emptySpaces {
     font-size: 18px; } }
 
@@ -354,13 +367,20 @@ p {
     height: 100%; }
   .header {
     background: url("../img/bigHeaderBG.jpg") 95% 5% no-repeat;
-    background-size: cover; }
+    background-size: cover;
+  flex: 2}
+  .logo {
+    width: 40%;
+    height: 60%;
+  }
   .mediaEmptySpaces {
     display: none; }
-  .title {
-    flex: 70%;
-    height: 90%;
-    margin-right: 5%; }
+  .title__text {
+    font-size: 3rem;
+  }
+  .slogan {
+    flex: 1;
+  }
   .emptySpaces {
     font-size: 18px; } }
 

@@ -360,8 +360,9 @@ p {
   .slogan__triangle {
     border-width: 12px 25px 0 25px; }
   .subscribe__link {
-    height: auto;
-    font-size: 5rem}
+    font-size: 22px;
+    height: 35%;
+  }
   .price {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -509,15 +510,29 @@ p {
     display: none; }
   .slogan__triangle {
     border-width: 20px 25px 0 25px; }
+  .subscribe {
+    -webkit-box-flex: .5;
+    -webkit-flex: .5;
+        -ms-flex: .5;
+            flex: .5;
+  }
 }
 
 @media screen and (min-width: 760px) and (orientation: portrait) {
   html {
     font-size: 14px; }
+  .advantages {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
   .advantages__img {
     height: 60%; }
   .slogan__triangle {
     left: 48%; }
+  .subscribe__link {
+  }
   .emptySpaces {
     font-size: 18px; } }
 
@@ -526,16 +541,25 @@ p {
     height: 100%; }
   .header {
     background: url("../img/bigHeaderBG.jpg") 95% 5% no-repeat;
-    background-size: cover; }
+    background-size: cover;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2}
+  .logo {
+    width: 40%;
+    height: 60%;
+  }
   .mediaEmptySpaces {
     display: none; }
   .title {
-    -webkit-box-flex: 70%;
-    -webkit-flex: 70%;
-        -ms-flex: 70%;
-            flex: 70%;
-    height: 90%;
-    margin-right: 5%; }
+  }
+  .slogan {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
   .emptySpaces {
     font-size: 18px; } }
 
