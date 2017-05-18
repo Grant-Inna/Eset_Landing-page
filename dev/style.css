@@ -247,7 +247,7 @@ a {
   .mainContainer {
     height: 320px; }
   .header {
-    flex: 1; }
+    flex: .6; }
   .slogan {
     flex: 0.2;
   }

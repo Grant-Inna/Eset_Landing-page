@@ -370,10 +370,10 @@ a {
   .mainContainer {
     height: 320px; }
   .header {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1; }
+    -webkit-box-flex: .6;
+    -webkit-flex: .6;
+        -ms-flex: .6;
+            flex: .6; }
   .slogan {
     -webkit-box-flex: 0.2;
     -webkit-flex: 0.2;
