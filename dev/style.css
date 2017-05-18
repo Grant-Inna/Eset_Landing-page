@@ -371,7 +371,7 @@ p {
   flex: 2}
   .logo {
     width: 40%;
-    height: 60%;
+    height: 90px;
   }
   .mediaEmptySpaces {
     display: none; }
@@ -380,7 +380,7 @@ p {
     background: url("../img/production.png") center no-repeat;
     background-size: contain;
     width: 385px;
-    height: 250px;
+    height: 230px;
   }
   .title__text {
     font-size: 3rem;
