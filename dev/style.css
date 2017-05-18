@@ -270,12 +270,12 @@ p {
   .advantages {
     display: none; }
   .mediaEmptySpaces {
-    flex: 0.2; }
+    flex: 0.6; }
   .subscribe {
     flex: .3;
     padding-top: 4px;}
   .price {
-    flex: .3; }
+    flex: .4; }
   .emptySpaces {
     flex: 2; } }
 

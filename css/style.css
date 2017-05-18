@@ -402,10 +402,10 @@ p {
   .advantages {
     display: none; }
   .mediaEmptySpaces {
-    -webkit-box-flex: 0.2;
-    -webkit-flex: 0.2;
-        -ms-flex: 0.2;
-            flex: 0.2; }
+    -webkit-box-flex: 0.6;
+    -webkit-flex: 0.6;
+        -ms-flex: 0.6;
+            flex: 0.6; }
   .subscribe {
     -webkit-box-flex: .3;
     -webkit-flex: .3;
@@ -413,10 +413,10 @@ p {
             flex: .3;
     padding-top: 4px;}
   .price {
-    -webkit-box-flex: .3;
-    -webkit-flex: .3;
-        -ms-flex: .3;
-            flex: .3; }
+    -webkit-box-flex: .4;
+    -webkit-flex: .4;
+        -ms-flex: .4;
+            flex: .4; }
   .emptySpaces {
     -webkit-box-flex: 2;
     -webkit-flex: 2;
