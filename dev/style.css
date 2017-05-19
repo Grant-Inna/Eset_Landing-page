@@ -719,11 +719,7 @@ p
     {
         float: right;
 
-        width: 610px; /* todo Is it it??   610  */
-    }
-    .slogan
-    {
-        display: none;
+        width: 610px;
     }
     .title
     {
@@ -735,12 +731,13 @@ p
 
         width: 360px;
         height: 90px;
+        margin-top: 15px;
     }
     .mediaEmptySpaces
     {
         display: block;
 
-        height: 50px;
+        height: 70px;
     }
     .face
     {
@@ -758,8 +755,14 @@ p
     {
         height: 60px;
     }
+    .subscribe
+    {
+        height: 50px;
+        margin: 0 auto;
+    }
     .subscribe__link
     {
+        width: 800px;
         height: 40px;
     }
     .price
@@ -770,6 +773,10 @@ p
     .advantages
     {
         height: 125px;
+    }
+    .advantages__textWrapper
+    {
+        margin: 0 auto;
     }
     .advantages__item
     {
