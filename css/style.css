@@ -765,6 +765,42 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
   }
+
+  .header .title {
+    width: 800px;
+  }
+
+  .title {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+
+  .title__text {
+    font-size: 3.5rem;
+  }
+
+  .face {
+    height: 465px;
+  }
+
+  .price {
+    font-size: 20px;
+    height: 70px;
+  }
+
+  .advantages {
+    height: 230px;
+  }
+
+  .hideBRiPad {
+    display: block;
+  }
+
+  .emptySpaces {
+    height: 128px;
+  }
 }
 
 @media screen and (min-width: 900px) and (orientation: landscape) {
@@ -908,7 +944,7 @@ p {
   }
 }
 
-@media screen and (min-height: 1000px) {
+@media screen and (min-width: 1200px) {
   .header .title {
     width: 800px;
   }

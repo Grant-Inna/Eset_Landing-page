@@ -705,6 +705,41 @@ p
     {
         justify-content: center;
     }
+
+    .header .title
+    {
+        width: 800px;
+    }
+    .title
+    {
+        justify-content: flex-end;
+    }
+    .title__text
+    {
+        font-size: 3.5rem;
+    }
+    .face
+    {
+        height: 465px;
+    }
+    .price
+    {
+        font-size: 20px;
+
+        height: 70px;
+    }
+    .advantages
+    {
+        height: 230px;
+    }
+    .hideBRiPad
+    {
+        display: block;
+    }
+    .emptySpaces
+    {
+        height: 128px;
+    }
 }
 
 @media screen and (min-width: 900px) and (orientation: landscape)
@@ -849,7 +884,8 @@ p
         height: 90px;
     }
 }
-@media screen and (min-height: 1000px)
+
+@media screen and (min-width: 1200px)
 {
     .header .title
     {
