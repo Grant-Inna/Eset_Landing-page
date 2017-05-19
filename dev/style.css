@@ -721,13 +721,19 @@ p
 
         width: 610px; /* todo Is it it??   610  */
     }
+    .slogan
+    {
+        display: none;
+    }
     .title
     {
         text-align: end;
     }
     .logo
     {
-        width: 400px;
+        float: left;
+
+        width: 360px;
         height: 90px;
     }
     .mediaEmptySpaces
