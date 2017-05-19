@@ -16,7 +16,7 @@ gulp.task('cssComb', function() {
 gulp.task('autoprefixer', function() {
     return gulp.src('./style.css')
         .pipe(gcmq())
-        .pipe(autoprefixer({browsers: ['last 5 versions', '> 3%']}))
+        //.pipe(autoprefixer({browsers: ['last 5 versions', '> 3%']}))
         .pipe(gulp.dest('../css'))
         .pipe(notify('Autoprefixer Success!'));
 });
