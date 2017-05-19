@@ -849,8 +849,7 @@ p
         height: 90px;
     }
 }
-
-@media screen and (min-height: 1200px)
+@media screen and (min-height: 1000px)
 {
     .header .title
     {

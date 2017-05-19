@@ -908,7 +908,7 @@ p {
   }
 }
 
-@media screen and (min-height: 1200px) {
+@media screen and (min-height: 1000px) {
   .header .title {
     width: 800px;
   }
