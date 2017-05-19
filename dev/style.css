@@ -659,10 +659,6 @@ p
     {
         height: 150px;
     }
-    .advantages
-    {
-        height: 125px;
-    }
     .advantages__wrapper
     {
         font-size: 1.7rem;
@@ -720,7 +716,7 @@ p
     }
     .title__text
     {
-        font-size: 3.5rem;
+        font-size: 3.3rem;
     }
     .face
     {
