@@ -484,7 +484,7 @@ p
     }
     .emptySpaces
     {
-        height: 80px;
+        height: 70px;
     }
 }
 
@@ -653,7 +653,7 @@ p
     }
     .advantages
     {
-        flex: 1;
+        height: 125px;
     }
     .advantages__wrapper
     {
@@ -717,22 +717,24 @@ p
     }
     .header .title
     {
-        width: 310px; /* todo Is it it??   610  */
+        float: right;
+
+        width: 610px; /* todo Is it it??   610  */
     }
     .title
     {
-        width: 75%;
-
         text-align: end;
     }
     .logo
     {
-        width: 40%;
+        width: 400px;
         height: 90px;
     }
     .mediaEmptySpaces
     {
-        display: none;
+        display: block;
+
+        height: 50px;
     }
     .face
     {
@@ -753,6 +755,11 @@ p
     .subscribe__link
     {
         height: 40px;
+    }
+    .price
+    {
+        height: 40px;
+        padding-bottom: 0;
     }
     .advantages
     {
