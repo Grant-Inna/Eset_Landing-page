@@ -336,7 +336,7 @@ p {
     flex: .6;
   }
 
-  .header .title {
+  .title__text {
     width: 380px;
   }
 
@@ -390,7 +390,7 @@ p {
   }
 }
 
-@media screen and (min-width: 400px) and (orientation: landscape) {
+@media screen and (min-width: 370px) and (orientation: landscape) {
   .mainContainer {
     height: 100%;
   }
@@ -406,11 +406,53 @@ p {
   .slogan__triangle {
     border-width: 13px 25px 0 25px;
   }
+
+  .face {
+    height: 250px;
+  }
+
+  .advantages__item {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 400px) and (orientation: portrait) {
+  .header {
+    height: 100px;
+  }
+
+  .logo {
+    height: 45px;
+  }
+
+  .title__text {
+    font-size: 2rem;
+  }
+
+  .face {
+    height: 50px;
+  }
+
+  .advantages__item {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 660px) and (orientation: landscape) {
   .mainContainer {
     height: 100%;
+  }
+
+  .header {
+    height: 100px;
+  }
+
+  .logo {
+    height: 45px;
+  }
+
+  .title__text {
+    font-size: 2rem;
   }
 
   .mediaEmptySpaces {
@@ -424,12 +466,8 @@ p {
   .advantages {
     display: flex;
     flex-direction: row;
+    height: 115px;
     justify-content: center;
-  }
-
-  .advantages__img {
-    width: 33%;
-    height: 90%;
   }
 
   .advantages__text {
@@ -450,21 +488,24 @@ p {
     height: 100%;
   }
 
+  .header {
+    height: 120px;
+  }
+
   .title__text {
     font-size: 2rem;
+  }
+
+  .slogan__title {
+    font-size: 1.5rem;
   }
 
   .slogan {
     flex: 1.5;
   }
 
-  .slogan__title {
-    font-size: 1.6rem;
-  }
-
   .advantages {
-    flex: 4;
-    justify-content: center;
+    height: 110px;
   }
 
   .advantages__title {
@@ -486,6 +527,10 @@ p {
   .subscribe {
     flex: .5;
   }
+
+  .emptySpaces {
+    height: 60px;
+  }
 }
 
 @media screen and (min-width: 760px) and (orientation: portrait) {
@@ -493,12 +538,20 @@ p {
     font-size: 14px;
   }
 
+  .header {
+    height: 150px;
+  }
+
   .advantages {
     flex: 1;
   }
 
-  .advantages__img {
-    height: 60%;
+  .advantages__wrapper {
+    font-size: 1.7rem;
+  }
+
+  .advantages__item {
+    font-size: 1.7rem;
   }
 
   .slogan__triangle {
@@ -521,10 +574,11 @@ p {
   }
 
   .face {
-    height: 320px;
+    height: 350px;
   }
 
   .price {
+    height: 35px;
     align-items: flex-start;
   }
 
@@ -547,6 +601,10 @@ p {
     flex: 2;
   }
 
+  .header .title {
+    width: 610px;
+  }
+
   .title {
     width: 75%;
     text-align: end;
@@ -561,12 +619,12 @@ p {
     display: none;
   }
 
-  .advantages__img {
-    display: block;
-    width: 385px;
-    height: 230px;
-    background: url('../img/production.png') center no-repeat;
-    background-size: contain;
+  .face {
+    height: 350px;
+  }
+
+  .face__wrapper {
+    height: 75%;
   }
 
   .title__text {
@@ -575,6 +633,14 @@ p {
 
   .slogan {
     flex: 1;
+  }
+
+  .advantages {
+    height: 125px;
+  }
+
+  .advantages__item {
+    font-size: 1.7rem;
   }
 
   .emptySpaces {
@@ -587,6 +653,10 @@ p {
     font-size: 17px;
   }
 
+  .header {
+    height: 150px;
+  }
+
   .logo {
     width: 40%;
     height: 80px;
@@ -596,8 +666,21 @@ p {
     font-size: 3rem;
   }
 
+  .face {
+    height: 450px;
+  }
+
   .price {
+    height: 50px;
     align-items: flex-start;
+  }
+
+  .advantages {
+    height: 200px;
+  }
+
+  .advantages__item {
+    font-size: 2rem;
   }
 
   .hideBR {
@@ -607,6 +690,10 @@ p {
   .title {
     justify-content: center;
   }
+
+  .emptySpaces {
+    height: 90px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -615,6 +702,6 @@ p {
   }
 
   .title__text {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 }
