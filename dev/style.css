@@ -753,7 +753,7 @@ p
     }
     .slogan
     {
-        height: 60px;
+        height: 20px;
     }
     .subscribe
     {
@@ -768,11 +768,13 @@ p
     .price
     {
         height: 40px;
+        margin: 0 auto;
         padding-bottom: 0;
     }
     .advantages
     {
         height: 125px;
+        margin: 0 auto;
     }
     .advantages__textWrapper
     {

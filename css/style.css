@@ -635,7 +635,7 @@ p {
   }
 
   .slogan {
-    height: 60px;
+    height: 20px;
   }
 
   .subscribe {
@@ -649,11 +649,13 @@ p {
   }
 
   .price {
+    margin: 0 auto;
     height: 40px;
     padding-bottom: 0;
   }
 
   .advantages {
+    margin: 0 auto;
     height: 125px;
   }
 
