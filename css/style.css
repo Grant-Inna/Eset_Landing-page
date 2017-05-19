@@ -708,6 +708,10 @@ p {
     font-size: 14px;
   }
 
+  .container {
+    background-size: cover;
+  }
+
   .header {
     height: 150px;
   }
