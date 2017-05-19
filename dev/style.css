@@ -201,7 +201,6 @@ p
 
     width: 100%;
     height: 160px;
-    min-height: 150px;
 
     color: #434d57;
     background-color: #fff;
@@ -433,9 +432,13 @@ p
     {
         flex: .6;
     }
+    .header .title
+    {
+        width: 380px;
+    }
     .title__text
     {
-        margin-right: 5px;
+        font-size: 1.7rem;
     }
     .slogan
     {
@@ -445,9 +448,13 @@ p
     {
         font-size: 0;
     }
+    .advantages
+    {
+        height: 95px;
+    }
     .subscribe
     {
-        flex: 7;
+        height: 30px;
     }
     .slogan__triangle
     {
@@ -457,9 +464,9 @@ p
     {
         height: 230px;
     }
-    .advantages
+    .face__wrapper
     {
-        display: none;
+        height: 65%;
     }
     .mediaEmptySpaces
     {
@@ -473,7 +480,7 @@ p
     }
     .price
     {
-        flex: 1;
+        height: 50px;
     }
     .emptySpaces
     {

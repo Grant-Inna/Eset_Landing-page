@@ -150,10 +150,9 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 150px;
+  height: 160px;
   color: #434d57;
   background-color: #fff;
-  height: 160px;
   justify-content: flex-start;
   align-items: center;
 }
@@ -196,8 +195,8 @@ p {
 .subscribe {
   display: flex;
   width: 100%;
-  background-color: #fff;
   height: 50px;
+  background-color: #fff;
   justify-content: center;
   align-items: center;
 }
@@ -337,8 +336,12 @@ p {
     flex: .6;
   }
 
+  .header .title {
+    width: 380px;
+  }
+
   .title__text {
-    margin-right: 5px;
+    font-size: 1.7rem;
   }
 
   .slogan {
@@ -349,8 +352,12 @@ p {
     font-size: 0;
   }
 
+  .advantages {
+    height: 95px;
+  }
+
   .subscribe {
-    flex: 7;
+    height: 30px;
   }
 
   .slogan__triangle {
@@ -361,8 +368,8 @@ p {
     height: 230px;
   }
 
-  .advantages {
-    display: none;
+  .face__wrapper {
+    height: 65%;
   }
 
   .mediaEmptySpaces {
@@ -375,7 +382,7 @@ p {
   }
 
   .price {
-    flex: 1;
+    height: 50px;
   }
 
   .emptySpaces {
