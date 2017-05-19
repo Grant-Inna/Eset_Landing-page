@@ -5,7 +5,7 @@
     font-style: normal;
 
     src: url('../fonts/SegoeUIRegular.eot');
-    src: url('../font/SegoeUIRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/SegoeUIRegular.woff') format('woff'), url('../fonts/SegoeUIRegular.ttf') format('truetype');
+    src: url('../fonts/SegoeUIRegular.woff') format('woff'), url('../fonts/SegoeUIRegular.ttf') format('truetype');
 }
 
 @font-face
@@ -26,8 +26,9 @@ html
 html,
 body
 {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    overflow: scroll;
+
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -94,7 +95,6 @@ p
     background-size: cover;
 
     flex: 1;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     align-items: center;
 }
@@ -206,10 +206,7 @@ p
     color: #434d57;
     background-color: #fff;
 
-    -webkit-box-flex: 4;
-    -webkit-flex: 4;
-        -ms-flex: 4;
-            flex: 4;
+    flex: 4;
     justify-content: flex-start;
     align-items: center;
 }
@@ -281,7 +278,6 @@ p
     height: 100%;
 
     transition: box-shadow .2s linear;
-    transition: box-shadow .2s linear, -webkit-box-shadow .2s linear;
     text-decoration: none;
 
     border-right: 1px solid rgba(0, 0, 0, .15);
