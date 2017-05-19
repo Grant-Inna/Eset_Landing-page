@@ -395,10 +395,14 @@ p
     {
         flex: .2;
     }
+    .face__wrapper
+    {
+        width: 100%;
+        height: 145px;
+    }
     .advantages
     {
-        display: flex;
-
+        justify-content: center;
         flex: .5;
     }
     .mediaEmptySpaces
@@ -417,11 +421,11 @@ p
     {
         font-size: 22px;
 
-        height: 35%;
+        height: 90%;
     }
     .price
     {
-        flex: 1;
+        flex: 1.6;
     }
     .hideBR
     {
