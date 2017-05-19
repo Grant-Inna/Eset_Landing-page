@@ -386,7 +386,7 @@ p {
   }
 
   .emptySpaces {
-    height: 90px;
+    height: 80px;
   }
 }
 
@@ -697,11 +697,32 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
+  .header .title {
+    width: 800px;
+  }
+
   .title {
     justify-content: flex-end;
   }
 
   .title__text {
     font-size: 4rem;
+  }
+
+  .face {
+    height: 465px;
+  }
+
+  .price {
+    font-size: 20px;
+    height: 70px;
+  }
+
+  .advantages {
+    height: 170px;
+  }
+
+  .emptySpaces {
+    height: 128px;
   }
 }

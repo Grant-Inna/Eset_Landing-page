@@ -484,7 +484,7 @@ p
     }
     .emptySpaces
     {
-        height: 90px;
+        height: 80px;
     }
 }
 
@@ -817,7 +817,8 @@ p
 
 @media screen and (min-width: 1200px)
 {
-    .header .title {
+    .header .title
+    {
         width: 800px;
     }
     .title
@@ -828,17 +829,22 @@ p
     {
         font-size: 4rem;
     }
-    .face {
+    .face
+    {
         height: 465px;
     }
-    .price {
-        height: 70px;
+    .price
+    {
         font-size: 20px;
+
+        height: 70px;
     }
-    .advantages {
+    .advantages
+    {
         height: 170px;
     }
-    .emptySpaces {
+    .emptySpaces
+    {
         height: 128px;
     }
 }
