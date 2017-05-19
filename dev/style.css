@@ -850,7 +850,7 @@ p
     }
 }
 
-@media screen and (min-width: 1200px) and (orientation: portrait)
+@media screen and (min-height: 1200px)
 {
     .header .title
     {
