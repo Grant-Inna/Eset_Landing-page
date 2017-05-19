@@ -602,7 +602,8 @@ p {
   }
 
   .header .title {
-    width: 610px;
+    width: 310px;
+    /* todo Is it it??   610  */
   }
 
   .title {
@@ -620,7 +621,7 @@ p {
   }
 
   .face {
-    height: 350px;
+    height: 450px;
   }
 
   .face__wrapper {
@@ -632,7 +633,11 @@ p {
   }
 
   .slogan {
-    flex: 1;
+    height: 60px;
+  }
+
+  .subscribe__link {
+    height: 40px;
   }
 
   .advantages {
@@ -643,8 +648,11 @@ p {
     font-size: 1.7rem;
   }
 
+
+
   .emptySpaces {
     font-size: 15px;
+    height: 75px;
   }
 }
 
