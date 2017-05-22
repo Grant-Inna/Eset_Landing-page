@@ -586,7 +586,11 @@ p {
   }
 
   .face {
-    height: 250px;
+    height: 170px;
+  }
+
+  .face__wrapper {
+    height: 75%;
   }
 
   .advantages__item {
@@ -594,7 +598,12 @@ p {
   }
 }
 
-@media screen and (min-width: 400px) and (orientation: portrait) {
+@media screen and (min-width: 370px) and (orientation: portrait) {
+  html,
+  body {
+    height: 100%;
+  }
+
   .header {
     height: 100px;
   }
@@ -608,11 +617,25 @@ p {
   }
 
   .face {
-    height: 50px;
+    height: 180px;
   }
 
   .advantages__item {
     font-size: 1.5rem;
+  }
+
+  .emptySpaces {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (min-width: 410px) and (orientation: portrait) {
+  .face {
+    height: 200px;
+  }
+
+  .emptySpaces {
+    padding-top: 20%;
   }
 }
 
@@ -622,7 +645,7 @@ p {
   }
 
   .header {
-    height: 100px;
+    height: 75px;
   }
 
   .logo {
@@ -639,6 +662,14 @@ p {
 
   .slogan__triangle {
     left: 47%;
+  }
+
+  .face {
+    height: 140px;
+  }
+
+  .face__wrapper {
+    height: 80%;
   }
 
   .advantages {
@@ -683,7 +714,7 @@ p {
   }
 
   .header {
-    height: 120px;
+    height: 90px;
   }
 
   .title__text {
@@ -718,7 +749,7 @@ p {
   }
 
   .slogan__triangle {
-    border-width: 20px 25px 0 25px;
+    border-width: 10px 25px 0 25px;
   }
 
   .subscribe {
@@ -736,6 +767,11 @@ p {
 @media screen and (min-width: 760px) and (orientation: portrait) {
   html {
     font-size: 14px;
+  }
+
+  html,
+  body {
+    height: 100%;
   }
 
   .container {
@@ -800,11 +836,11 @@ p {
   }
 
   .title__text {
-    font-size: 3.3rem;
+    font-size: 2rem;
   }
 
   .face {
-    height: 465px;
+    height: 335px;
   }
 
   .price {
@@ -822,11 +858,13 @@ p {
 
   .emptySpaces {
     height: 128px;
+    padding-top: 5%;
   }
 }
 
 @media screen and (min-width: 900px) and (orientation: landscape) {
-  .mainContainer {
+  html,
+  body {
     height: 100%;
   }
 
@@ -854,13 +892,20 @@ p {
     margin-top: 15px;
   }
 
+  .slogan {
+    -webkit-box-flex: .5;
+    -webkit-flex: .5;
+        -ms-flex: .5;
+            flex: .5;
+  }
+
   .mediaEmptySpaces {
     display: block;
     height: 70px;
   }
 
   .face {
-    height: 450px;
+    height: 335px;
   }
 
   .face__wrapper {
@@ -917,8 +962,13 @@ p {
     font-size: 17px;
   }
 
+  html,
+  body {
+    height: 100%;
+  }
+
   .header {
-    height: 150px;
+    height: 180px;
   }
 
   .logo {
@@ -943,7 +993,7 @@ p {
   }
 
   .advantages {
-    height: 200px;
+    height: 360px;
   }
 
   .advantages__item {
@@ -962,7 +1012,7 @@ p {
   }
 
   .emptySpaces {
-    height: 90px;
+    height: 140px;
   }
 }
 
@@ -982,8 +1032,12 @@ p {
     font-size: 3.5rem;
   }
 
+  .slogan__title {
+    font-size: 1.8rem;
+  }
+
   .face {
-    height: 465px;
+    height: 390px;
   }
 
   .price {
